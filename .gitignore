@@ -20,3 +20,28 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+
+# dependencies
+/node_modules
+
+# android
+/android/.gradle
+/android/build
+/android/app/build
+/android/app/.cxx
+/android/app/src/main/assets/inspector-proxy
+/android/local.properties
+
+# ios
+/ios/build
+/ios/.xcode.env.local
+/ios/Pods
+/ios/Podfile.lock
+/ios/DerivedData
+
+# Environment variables
+.env
+.env.development
+.env.production
+node_modules
